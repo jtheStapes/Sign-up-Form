@@ -11,6 +11,11 @@ body {
     justify-content: center;
 }
 
+img {
+    width: 5rem;
+    height: auto;
+}
+
 .body {
     display: flex;
     height: 100vh;
@@ -45,11 +50,14 @@ body {
 }
 
 .logo {
+    display: flex;
     background-color: rgb(32, 32, 32, 0.5);
-    padding: 50px;
-    font-size: 50px;
-    text-align: center;
+    font-size: 5rem;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
     margin-top: 200px;
+    
 }
 
 h1, div+p {
