@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 30px;
-    
+    width: 80%;
 }
 
 .logo {
@@ -51,10 +51,6 @@ body {
     font-size: 50px;
     text-align: center;
     margin-top: 200px;
-}
-
-.header {
-    width: 80%;
 }
 
 .form-container {
@@ -81,8 +77,23 @@ fieldset > div {
 }
 
 input, textarea, select, button {
+    font-family: inherit;
+    font-size: 100%;
     width : 150px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px;
+    color: aliceblue;
+}
+
+a {
+    color: green;
+    text-decoration: none;
 }
