@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+    background-color: rgb(36, 36, 36);
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+    line-height: calc(1em + 0.5vw);
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.sidebar {
+    display: flex;
+    background: no-repeat url("../bgimg.jpg");
+    background-size: 550px 967px;
+    width: 35%;
+    color: aliceblue;
+    flex-direction: column;
+    position: relative;
+}
+.main {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.logo {
+    background-color: rgb(32, 32, 32, 0.5);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.header {
+    width: 80%;
+}
+
+footer {
+    position: absolute;
+    font-size: 16px;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+}
