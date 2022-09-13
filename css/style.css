@@ -50,6 +50,7 @@ footer {
     flex-direction: column;
     background-color: aliceblue;
     width: 70%;
+    padding: 2rem;
 }
 
 .form-container {
