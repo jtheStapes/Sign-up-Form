@@ -63,6 +63,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: space-around;
 }
 
 .section-three, .form-container {
@@ -80,13 +81,13 @@ footer {
 
 .columns {
     display: flex;
-    
+    width: 50%;
+    justify-content: space-between;
 }
 
 .col-one, .col-two {
     display: flex;
     flex-direction: column;
-    width: 35%;
 }
 
 .section-three {
