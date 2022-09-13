@@ -81,6 +81,10 @@ footer {
     flex-direction: column;
 }
 
+fieldset {
+    border: none;
+}
+
 input, textarea, select, button {
     font-family: inherit;
     font-size: 100%;
