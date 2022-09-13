@@ -76,6 +76,10 @@ footer {
     height: 40%;
 }
 
+label {
+    margin-bottom: 5px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
