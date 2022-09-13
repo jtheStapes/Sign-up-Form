@@ -106,8 +106,10 @@ h2 + h2 + h2 {
 }
 
 .section-three {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 fieldset {
