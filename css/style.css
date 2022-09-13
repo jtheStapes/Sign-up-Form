@@ -53,19 +53,18 @@ footer {
     width: 70%;
 }
 
-.header {
-    display: flex;
-    height: 30%;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 30px;
-    width: 80%;
-}
-
 .form-container {
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+.section-three, .form-container {
+    height: 40%;
+}
+
+.header {
+    height: 40%;
 }
 
 .columns {
