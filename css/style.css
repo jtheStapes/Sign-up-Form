@@ -83,6 +83,10 @@ h2 {
     width: 50%;
 }
 
+h2 + h2 + h2 {
+    margin-top: 50px;
+}
+
 .columns > div > p {
     display: flex;
     flex-direction: column;
