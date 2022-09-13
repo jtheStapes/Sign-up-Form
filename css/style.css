@@ -69,6 +69,7 @@ footer {
     flex-direction: column;
     background-color: white;
     justify-content: space-around;
+    box-shadow: 0 4px 2px -1px gray;
 }
 
 .section-three, .form-container {
