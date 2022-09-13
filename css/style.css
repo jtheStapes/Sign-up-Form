@@ -142,7 +142,7 @@ input, textarea, select, button {
 
 input[type='text']:invalid,
 input[type='email']:invalid {
-  border: 1px solid #D55C5F;
+  border: 2px solid #D55C5F;
   color: #D55C5F;
   box-shadow: none;
 }
