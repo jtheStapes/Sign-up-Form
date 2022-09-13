@@ -48,7 +48,7 @@ footer {
 .main {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: rgb(240, 240, 240);
     width: 70%;
     
 }
