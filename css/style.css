@@ -24,11 +24,13 @@ img {
 
 .sidebar {
     display: flex;
+    width: 30%;
+    height: 100vh;
     background: no-repeat url("../bgimg.jpg");
+    background-size: cover;
     color: aliceblue;
     flex-direction: column;
     position: relative;
-    width: 30%;
 }
 
 .logo {
