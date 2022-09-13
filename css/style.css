@@ -149,10 +149,13 @@ input[type='email']:invalid {
 
 button {
     font-size: 20px;
+    font-weight: bold;
+    border: none;
     border-radius: 5px;
     background-color: #596D48;
-    padding: 10px;
+    padding: 10px 40px;
     color: aliceblue;
+    cursor: pointer;
 }
 
 a {
