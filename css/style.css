@@ -28,9 +28,12 @@ img {
     height: 100vh;
     background: no-repeat url("../bgimg.jpg");
     background-size: cover;
-    color: aliceblue;
     flex-direction: column;
     position: relative;
+}
+
+.logo, footer {
+    color: aliceblue;
 }
 
 .logo {
