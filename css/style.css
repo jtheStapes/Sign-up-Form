@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    min-height: 100vh;
-    background-color: rgb(36, 36, 36);
-    padding: 0px;
+:root {
+    --color: #e6007e;
+    --txt: rgb(185, 185, 185)
+}
+
+* {
     margin: 0px;
-    font-size: 1.2rem;
-    line-height: calc(1em + 0.5vw);
-    align-items: center;
-    justify-content: center;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--txt)
 }
 
 img {
@@ -18,26 +19,24 @@ img {
 
 .body {
     display: flex;
-    height: 100vh;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .sidebar {
     display: flex;
     background: no-repeat url("../bgimg.jpg");
-    background-size: 550px 967px;
-    width: 35%;
     color: aliceblue;
     flex-direction: column;
     position: relative;
+    width: 30%;
 }
+
 .main {
-    width: 65%;
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
+    width: 70%;
 }
 
 .header {
@@ -49,53 +48,31 @@ img {
     width: 80%;
 }
 
-.logo {
-    display: flex;
-    background-color: rgb(32, 32, 32, 0.5);
-    font-size: 5rem;
-    padding: 25px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-}
-
-h1, div+p {
-    margin-left: 15px;
-}
-
 .form-container {
     display: flex;
-    background-color: white;
     flex-direction: column;
+    background-color: white;
 }
 
 .columns {
-    gap: 50px;
-}
-
-footer {
-    position: absolute;
-    font-size: 16px;
-    bottom: 0;
-    text-align: center;
-    justify-content: center;
-}
-
-fieldset {
-    border: none;
-    position: relative;
-}
-
-fieldset > div {
     display: flex;
-    margin: 0 auto;
-    justify-content: flex-start;
 }
 
-fieldset > div > div {
+.col-one, .col-two {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+}
+
+.logo {
+    background-color: rgb(32, 32, 32, 0.5);
+    font-size: 5rem;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
 }
 
 input, textarea, select, button {
@@ -118,8 +95,4 @@ button {
 a {
     color: #596D48;
     text-decoration: none;
-}
-
-.section {
-    padding: 25px;
 }
