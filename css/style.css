@@ -73,6 +73,11 @@ footer {
     height: 40%;
 }
 
+.columns > div > p {
+    display: flex;
+    flex-direction: column;
+}
+
 .columns {
     display: flex;
 }
